@@ -1,0 +1,24 @@
+.ui-progressbar-large {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+}
+.result {
+   font-size: 35px;
+   text-align: center;
+   top: 33%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   position: absolute;
+}
+
+@media all and (-tizen-geometric-shape: circle) {
+   .result {
+      top: 50%;
+      margin: 0;
+   }
+   .ui-footer {
+      display: none;
+   }
+}

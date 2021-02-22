@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="css/thumbnails.css">
+<script type="text/javascript" src="js/thumbnail.js"></script>
+<meta name="viewport" content="width=device-width,user-scalable=no">
+	<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+	<!-- load theme file for your application -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="lib/tau/wearable/js/tau.min.js"></script>
+
+	<script src="js/lowBatteryCheck.js"></script>
+	<script src="js/circle-helper.js"></script>
+
+<div class="ui-page ui-page-active" id="sectionChangerPage" data-enable-page-scroll="false">
+   <div id="sectionChanger" class="ui-content ui-section-changer">
+      <div id="scroller">
+         <section class="ui-section-active">
+            <div class="thumbnail">Main</div>
+         </section>
+         <section>
+            <div class="thumbnail">Statistics</div>
+         </section>
+         <section>
+         	<div class="thumbnail">Settings</div>
+         </section>
+         <section>
+         	<div class="thumbnail">Info</div>
+         </section>
+      </div>
+   </div>
+</div>
+</html>

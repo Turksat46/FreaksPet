@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>Basic</title>
+	<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+	<!-- load theme file for your application -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div>
+	<div class="ui-page ui-page-active" id="main">
+		<header class="ui-header">
+			<h2 class="ui-title">Update-Log</h2>
+		</header>
+		<div class="ui-content ui-content-padding">
+			<h2>Version 0.8.9:</h2>
+				<p>- Added Sleep-Function: Now your pet goes with you to sleep! Make your room dark or hold your hand over his face for a minute and he falls asleep!
+					To wake him up, simply shake your pet! (Please watch out, don't destroy your watch in the process!)</p>
+					
+				<p>- Destroyed Menu: The menu was deleted because of critical errors, but it will be added back soon!</p>
+				
+				<p>- Added Update-Log: You see, this is new!</p>
+				
+				<p>- Minor Bugfixes, but it is never bugfree :(</p>
+				
+				<p>For more information, visit
+				https://github.com/Turksat46/FreaksPet</p>
+				
+				<p>- Have fun :D New features will occur asap ^^</p>
+				
+		</div>
+		<footer class="ui-footer ui-bottom-button">
+      <a href="game.html" class="ui-btn" onclick="leave()">Exit</a>
+   </footer>
+   <script type="text/javascript">
+   function leave(){ 
+   location.replace("game.html");
+   }
+   </script>
+	</div>
+	<script src="lib/tau/wearable/js/tau.min.js"></script>
+	<script src="js/update.js"></script>
+	<script src="js/lowBatteryCheck.js"></script>
+	<script src="js/circle-helper.js"></script>
+	</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://Turksat46/FreaksPet" version="0.8.9" height="360" width="360" viewmodes="maximized">
+    <tizen:application id="m5IRjRncXG.FreaksPet" package="m5IRjRncXG" required_version="5.5"/>
+    <author email="turksat46@gmail.com">Turksat46</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <feature name="http://tizen.org/feature/sensor.accelerometer"/>
+    <icon src="FreaksPet.png"/>
+    <name>FreaksPet</name>
+    <preference name="firststart" value="true" readonly="false"/>
+    <preference name="sleeping" value="false" readonly="false"/>
+    <tizen:privilege name="http://tizen.org/privilege/notification"/>
+    <tizen:privilege name="http://tizen.org/privilege/power"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
+</widget>

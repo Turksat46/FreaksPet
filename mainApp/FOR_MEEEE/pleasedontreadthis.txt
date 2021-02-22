@@ -1,0 +1,21 @@
+Functions:
+- It can see if your moving
+- It sees the light
+- it sleeps with you
+- it has 2 engines
+- it can send notifications
+- screen stays on!
+
+
+TODO:
+- Work on Chargsleeper
+- I have to put in the animations for the sleeping actions (HALFDONE)
+- Create a update logger and data securer(for preferences)
+- Make games??
+- create info html
+- create settings html?
+- plz kill me
+- maybe name-input for the pet
+- maybe multiple pets to set (like a cat and dog one or even 8 bit dinosaur)
+- neural network to learn your behaviour and say things
+- SOUNDZ (i think of pet sounds)

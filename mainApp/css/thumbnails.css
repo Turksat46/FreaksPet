@@ -1,0 +1,39 @@
+section {
+   padding: 0 10px 0 10px;
+   height: 100%;
+}
+.thumbnail {
+   height: 300px;
+   width: 200px;
+   background-color: #80482f;
+   top: 50%;
+   transform: translate3d(0, -50%, 0);
+   position: relative;
+   text-align: center;
+   line-height: 300px;
+}
+.ui-section-active .thumbnail {
+   background-color: #000000;
+   border: 1px solid #a06322;
+}
+
+@media all and (-tizen-geometric-shape: circle) {
+   section {
+      padding: 0;
+   }
+   .thumbnail {
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      background-color: #802532;
+      top: 50%;
+      position: relative;
+      text-align: center;
+      line-height: 200px;
+      transform: scale(0.8) translate3d(0, -60%, 0);
+      transition: transform 300ms;
+   }
+   .ui-section-active .thumbnail {
+      transform: scale(1) translate3d(0, -50%, 0);
+   }
+}
