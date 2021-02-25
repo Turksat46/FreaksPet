@@ -1,4 +1,5 @@
-# FreaksPet
+# FreaksPet ![FreaksPet](https://user-images.githubusercontent.com/50042338/109152895-65060a00-776c-11eb-9493-44b1beeadf77.png)
+
 
 FreaksPet is a Tizen Wearable optimized pet-game, where you have to watch out and care for your pet. Don't worryy, it's not like you have to look for it every 10 minutes! :D
 ***
