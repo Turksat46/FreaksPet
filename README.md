@@ -6,7 +6,7 @@ FreaksPet is a Tizen Wearable optimized pet-game, where you have to watch out an
 ***
 [Join my Discord Server!](https://discord.gg/78EZ6ErCmb)
 ***
-<a href="https://galaxy.store/TS46"><img src="https://img.samsungapps.com/seller/images/badges/galaxyStore/png_big/GalaxyStore_GermanyGerman.png?ver=1612199398000" alt="Available on Samsung Galaxy Store" style="max-width: 50%; height: auto;"></a>
+<a href="https://galaxy.store/TS46"><img src="https://img.samsungapps.com/seller/images/badges/galaxyStore/png_big/GalaxyStore_GermanyGerman.png?ver=1612199398000" alt="Available on Samsung Galaxy Store" style="max-width: 30%; height: auto;"></a>
 
 For details, please look up the wiki!
 https://github.com/Turksat46/FreaksPet/wiki
