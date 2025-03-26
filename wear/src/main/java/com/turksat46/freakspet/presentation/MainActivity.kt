@@ -27,6 +27,7 @@ import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.util.lerp
 import androidx.wear.compose.material.MaterialTheme
+import androidx.wear.tooling.preview.devices.WearDevices
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -451,13 +452,13 @@ fun drawAnimatedMouth(
 
 
 // --- Preview ---
-@Preview(device = Devices.WEAR_OS_SMALL_ROUND, showSystemUi = true)
+@Preview(device = WearDevices.LARGE_ROUND, showSystemUi = true, showBackground = true, widthDp = 230, heightDp = 230)
 @Composable
 fun WearAppPreviewRoundInteractive() {
     WearApp()
 }
 
-@Preview(device = Devices.WEAR_OS_SQUARE, showSystemUi = true)
+@Preview(device = WearDevices.SQUARE, showSystemUi = true, showBackground = true)
 @Composable
 fun WearAppPreviewSquareInteractive() {
     WearApp()
