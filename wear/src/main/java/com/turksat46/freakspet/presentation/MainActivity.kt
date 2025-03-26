@@ -271,7 +271,7 @@ fun SmileyFaceDrawing(
         // --- Augen-Geometrie ---
         val eyeRadius = canvasWidth * 0.13f // Relative Größe
         val eyeCenterY = canvasHeight * 0.3f
-        val eyeOffsetX = canvasWidth * 0.21f
+        val eyeOffsetX = canvasWidth * 0.24f
         val leftEyeCenter = Offset(center.x - eyeOffsetX, eyeCenterY)
         val rightEyeCenter = Offset(center.x + eyeOffsetX, eyeCenterY)
         val pupilRadius = eyeRadius * 0.40f
@@ -378,7 +378,7 @@ fun drawAnimatedMouth(
 
         // --- Zahn (Position bleibt relativ zu den offenen Mundwinkeln) ---
         val toothWidth = canvasWidth * 0.075f
-        val toothHeight = canvasWidth * 0.075f * lerp(0.5f, 1f, openness) // Zahn wird kleiner beim Schließen
+        val toothHeight = canvasWidth * 0.1f * lerp(0.5f, 1f, openness) // Zahn wird kleiner beim Schließen
         val toothStartX = centerX + canvasWidth * 0.08f
         val toothEndX = toothStartX + toothWidth
         // Zahn-Oberkante: Bleibt an der *offenen* Mundwinkelhöhe, um nicht mitzuwandern
